@@ -1,12 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Descrição p/ os buscadores do google">
+    <meta name="Keywords" content="Palavras chaves p/ consulta do site"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!--Link do Css-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--FavIcon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>Instagram</title>
 </head>
-<body>
+    <body>
+        <main>
+            <div id="main-container">
+                <!--Banner lateral-->
+                <div id="banner-container">
+                    <img src="img/imagem_cel_exterior.png" alt="Crie uma conta no instagram">
+
+                </div>
+                <!--Form de Login e Registro-->
+                <div id="form-container">
+                    <div id="form-box">
+                        <img id="logo-insta" src="img/logo_instagram.png" alt="Instagram">
+                        <form id="login-form">
+                            <input type="text" name="username" placeholder="Telefone,nome de usuário ou email" maxlength="100" minlength="3">
+                            <input type="password" name="password" placeholder="Senha" maxlength="20" minlength="3">
+                            <input type="submit" value="Entrar">
+                        </form>
+                        <div class="separator">
+                            <div class="line"></div>
+                            <span>Ou</span>
+
+                        </div>
+                        <div id="other-links">
+                            <div id="facebook-login">
+                                <a href="#">
+                                    <img src="img/logo_facebook.svg" alt="Facebook">
+                                    <span>Entrar com o Facebook</span>
+
+                                </a>
+
+                            </div>
+                            <div id="forgot-pass">
+                                <a href="#">Esqueceu a senha?</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div id="register-container">
+                        <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
     
-</body>
+                    </div>
+                    <div id="get-app-contaneir">
+                        <p>Obtenha o aplicativo.</p>
+                        <a href="#">
+                            <img src="img/botao_apple.png" alt="Apple-Store">
+                        </a>
+                        <a href="#">
+                           <img src="img/botao_google_play.png" alt="Google Play">
+                        </a>
+    
+                    </div>
+                </div>
+                
+               
+
+            </div>
+        </main>
+        <!--Rodapé e links de navegação-->
+        <footer>
+            <nav>
+                <ul id="footer-links">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Imprensa</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Termos</a></li>
+                    <li><a href="#">Localização</a></li>
+                    <li><a href="#">Contas mais relevantes</a></li>
+                    <li><a href="#">Hashtags</a></li>
+                    <li><a href="#">Idioma</a></li>
+
+                </ul>
+            </nav>
+        </footer>
+    </body>
 </html>
